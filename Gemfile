@@ -50,3 +50,7 @@ gem "bootstrap-sass", ">= 2.3.0.0"
 gem "devise", ">= 2.2.3"
 gem "devise_invitable", ">= 1.1.5"
 gem "simple_form", ">= 2.0.4"
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "figaro", ">= 0.5.3"
+gem "better_errors", ">= 0.6.0", :group => :development
+gem "binding_of_caller", ">= 0.6.9", :group => :development
