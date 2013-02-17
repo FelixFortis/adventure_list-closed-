@@ -1,4 +1,10 @@
 AdventureList::Application.routes.draw do
+  resources :list_items
+
+
+  resources :lists
+
+
   authenticated :user do
     root :to => 'home#index'
   end
