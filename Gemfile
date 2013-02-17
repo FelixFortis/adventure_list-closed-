@@ -22,6 +22,7 @@ group :development do
   gem "binding_of_caller", ">= 0.6.9"
   gem "quiet_assets", ">= 1.0.1"
   gem "html2haml", ">= 1.0.0"
+  gem 'annotate'
 end
 
 group :development, :test do
